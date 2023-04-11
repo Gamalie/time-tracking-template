@@ -1,0 +1,171 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.container{
+    width:80%;
+    height:80%;
+    /* border-radius: 10px; */
+    background-color: rgba(1, 1, 22, 0.966);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    height:80vh;
+
+}
+.content{
+    /* margin:5px; */
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas:"one two three four" "one five six seven";
+    gap:15px;
+}
+#i{
+    color: white;
+}
+#ii{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 80;
+}
+
+#iii{
+
+    color: rgb(79, 59, 168);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile{
+    border-bottom: 10px;
+    height: 250px;
+    
+
+}
+.profile img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    position: relative; /* for the overlay later */
+    margin: 10px;
+    display:flex;
+    flex-direction:column;
+    align-items: left;
+    border: 3px solid #FFF;
+    
+    
+}
+.one{
+    width:200px;
+    height: 400px;
+    grid-area: one;
+    background-color: rgb(64, 64, 226);
+}
+.profilea{
+    padding:20px;
+    gap:50px;
+    width:180px;
+    border-radius:10px;
+    
+}
+.profileb{
+    width:160px;
+    height: 173px;
+    background-color:rgb(39, 39, 83);
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap:20px;
+}
+.a img{
+    height:50px;
+    width:50px;
+    display:flex;
+    align-content: left;
+    align-items: end;
+
+}
+.a{
+    background-color:hsl(15, 100%, 70%);
+    height:20%;
+    border-radius: 10px;
+}
+
+.two{
+    width:200px;
+    height: 200px;
+    grid-area: two;
+    background-color:rgb(39, 39, 83);
+    border-radius: 10px;
+}
+.twoa{
+    background-color:hsl(15, 100%, 70%);
+    height:20%;
+    border-radius: 10px;
+}
+.two b{
+    height:80%;
+    border-radius: 10px;
+    padding:30px;
+    gap:30px;
+}
+.three{
+    width:200px;
+    height: 200px;
+    grid-area: three;
+    background-color:rgb(39, 39, 83);
+}
+.threea{
+    background-color:hsl(195, 74%, 62%);
+    height:20%;
+    border-radius: 10px;
+}
+
+.four{
+    width:200px;
+    height: 200px;
+    grid-area: four;
+    background-color:rgb(39, 39, 83);
+}
+.foura{
+    background-color:hsl(348, 100%, 68%);
+    height:20%;
+    border-radius: 10px;
+}
+.five{
+    width:200px;
+    height: 200px;
+    grid-area: five;
+    background-color:rgb(39, 39, 83);
+}
+.fivea{
+    background-color:hsl(145, 58%, 55%);
+    height:20%;
+    border-radius: 10px;
+
+}
+.six{
+    width:200px;
+    height: 200px;
+    grid-area: six;
+    background-color:rgb(39, 39, 83);
+}
+.sixa{
+    background-color:hsl(264, 64%, 52%);
+    height:20%;
+    border-radius: 10px;
+
+}
+.seven{
+    width:200px;
+    height: 200px;
+    grid-area: seven;
+    background-color:rgb(39, 39, 83);
+}
+.sevena{
+    background-color:hsl(43, 84%, 65%);
+    height:20%;
+    border-radius: 10px;
+
+}   
